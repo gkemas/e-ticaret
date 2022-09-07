@@ -1,0 +1,265 @@
+
+
+.navbar-head {
+  font-size: 0.8rem;
+  color: #333;
+}
+.head-icon {
+  position: fixed;
+  right: 490px !important;
+}
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.english {
+  border-left: solid rgb(223, 218, 218) 0.01px;
+}
+.navbar-mid {
+  left: -45px;
+  font-size: 15px;
+  font-weight: "Poppins", Arial, Helvetica, sans-serif;
+  color: rgb(119, 119, 119);
+}
+
+.navbar-last {
+  border: solid rgb(231, 229, 229) 0.01px;
+  padding: 0;
+}
+
+.navbar-browse {
+  border: 20px;
+}
+
+.btn-browse {
+  top: 20px;
+  height: 100%;
+}
+.icon {
+  font-size: 15px;
+}
+
+.bg-green {
+  background-color: rgba(131, 183, 53, 1);
+}
+.bg-white {
+  background-color: #fff;
+}
+.nav-head {
+  border-right: solid rgb(223, 218, 218) 0.01px;
+}
+.border {
+  border-color: #777;
+}
+.empty {
+  width: 60px;
+}
+.container-wood {
+  margin-top: 1rem;
+}
+
+.search {
+  margin-top: 1rem;
+}
+
+.navbar-brand img {
+  height: 40px;
+  float: left;
+  left: 20px;
+}
+.login {
+  margin-top: 1rem;
+}
+
+.last-header {
+  padding-top: 0rem;
+  margin-top: 0rem;
+}
+.dropdown-menu {
+  border-radius: 0;
+}
+.dropdown-menu a {
+  display: flex;
+  align-items: center;
+}
+.bi-chevron-compact-right {
+  position: absolute;
+
+  right: 5px !important;
+}
+.fa-solid {
+  float: left;
+}
+.text-color {
+  color: #fff;
+}
+
+.browse {
+  width: 100%;
+}
+.text-color {
+  color: rgba(131, 183, 53, 1) !important;
+}
+.special {
+  position: fixed;
+  right: 470px;
+}
+
+/* ----Slider ---*/
+.carousel-slide {
+  display: flex;
+  top: 0;
+  padding: 0;
+  background-color: #777;
+}
+
+.carousel-item {
+  height: 61.5vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.carousel-caption {
+  position: relative;
+  top: 100px;
+  right: 10px;
+  left: 600px;
+  width: 400px;
+  bottom: 120px;
+}
+
+.carousel-caption h4 {
+  font-size: 56px;
+  font-weight: 700;
+  color: rgba(51, 51, 51);
+  text-align: left;
+  left: 150px;
+}
+.carousel-image {
+  background-color: rgb(250, 247, 247);
+}
+.images {
+  object-fit: fill;
+  position: relative;
+  top: 40px;
+  height: 100% !important;
+  width: 40% !important;
+  float: right;
+  right: 300px;
+}
+.chair-text {
+  font-family: Lato;
+  font-size: 20px;
+
+  color: rgb(119, 119, 119);
+  text-align: left;
+  line-height: 26px;
+}
+.price {
+  font-size: 32px;
+  color: rgb(45, 45, 45);
+  text-align: left;
+  bottom: auto;
+}
+.btn-prev {
+  top: 250px;
+  background: #ffffff;
+  padding: 3px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  border-radius: 0;
+
+  transform: translate(65px, -22px);
+}
+
+.btn-next {
+  top: 250px;
+  background: #ffffff;
+  padding: 3px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  border-radius: 0;
+  position: absolute;
+  transform: translate(-65px, -22px);
+  z-index: 2;
+  opacity: 1;
+}
+
+.btn-icon {
+  position: absolute;
+  color: #333;
+  z-index: 1;
+}
+
+.min-img {
+  display: grid;
+  position: absolute;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  grid-column-gap: 10px !important;
+  grid-row-gap: 1px;
+  left: 0px;
+}
+
+.min-img img {
+  width: 40px;
+  height: 40px;
+}
+
+ .navbar-head ul.navbar-nav:focus  {
+  color:aqua !important;
+}
+@media (max-width: 1500px) {
+  .navbar-last {
+    font-size: 13px;
+  }
+  .carousel-text {
+    position: absolute;
+    float: left;
+    left: 200px !important;
+    font-size: 20px;
+  }
+  .first-price {
+    padding: 1rem 1rem 0 0;
+  }
+}
+ .nav-item a:hover{
+  color:#777 !important;
+}
+
+
+@media (max-width: 1400px) {
+  .navbar-head {
+    font-size: 10px;
+  }
+  .navbar-mid {
+    font-size: 12px;
+  }
+  .navbar-last {
+    font-size: 10px;
+  }
+  .carousel-text {
+    position: absolute;
+    left: 100px !important;
+    font-size: 18px;
+  }
+}
