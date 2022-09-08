@@ -228,6 +228,26 @@
  .navbar-head ul.navbar-nav:focus  {
   color:aqua !important;
 }
+
+@media(max-width:1200px) {
+  .dropdown-toggle, .item2, .item3, .dropdown{
+    display:none;
+    border: none;
+  
+    
+    
+  }
+  #navbarSupportedContent .navbar-nav {
+  height: 25px;
+  border:none;
+  transform:translateX(2px)
+}
+#navbarSupportedContent{
+  display: flex;
+  
+}
+
+
 @media (max-width: 1500px) {
   .navbar-last {
     font-size: 13px;
